@@ -74,6 +74,7 @@ ul {
  list-style-type: none;
  overflow: hidden;
  background-color: darkgrey;
+ margin-top: 50px;
 }
 li {
   display: inline;
@@ -83,6 +84,11 @@ li {
 }
 a {
   display: block;
-  float: right;
+  float: left;
   padding: 10px;
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: grey;
 }
